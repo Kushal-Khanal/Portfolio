@@ -22,7 +22,7 @@ const App = () => {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl mb-4">About Me</h2>
           <p className="text-lg max-w-2xl mx-auto">
-            Hello! I&apos;m Kushal Khanal. I would like to describe myself as a learner who is always keen to learn new skills. I am currently pursuing Bachelor of Science in Computer Science and Information Technology (BSc.CSIT) at Tribhuvan University. I am passionate about Web Application Development, Machine Learning, Cloud Computing and creating impactful digital solutions.
+            Hello! I am Kushal Khanal. I would like to describe myself as a learner who is always keen to learn new skills. I am currently pursuing Bachelor of Science in Computer Science and Information Technology (BSc.CSIT) at Tribhuvan University. I am passionate about Web Application Development, Machine Learning, Cloud Computing and creating impactful digital solutions.
           </p>
         </div>
       </section>
