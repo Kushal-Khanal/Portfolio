@@ -41,8 +41,9 @@ const App = () => {
             <div className="bg-white p-6 shadow-lg rounded-lg w-80">
               <p className="text-lg">Developed group project in Real Time Face Mask Detection System.</p>
             </div>
-          </div>
-          <div className="flex mx-20">
+          </div>          
+        </div>
+        <div className="flex justify-center flex-wrap mx-5 gap-1">
           <img
                 src="cprogram.svg"
                 alt="C-program"
@@ -84,7 +85,6 @@ const App = () => {
                 className="w-12 h-12 rounded-full mx-auto mb-4 mt-5"
               />
               </div>
-        </div>
       </section>
 
       {/* Contact Section */}
