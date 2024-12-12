@@ -1,4 +1,5 @@
 // import React from 'react';
+import Carousel from './Carousel';
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
       {/* Navigation Menu */}
       <nav className="flex justify-center bg-gray-700 py-4">
         <a href="#about-me" className="text-white px-6 py-2 hover:bg-gray-600 uppercase">About Me</a>
-        <a href="#skills" className="text-white px-6 py-2 hover:bg-gray-600 uppercase">Skills & Achievements</a>
+        <a href="#skills" className="text-white px-6 py-2 hover:bg-gray-600 uppercase">Skills & Worls</a>
         <a href="#contact" className="text-white px-6 py-2 hover:bg-gray-600 uppercase">Contact</a>
       </nav>
 
@@ -30,10 +31,10 @@ const App = () => {
       {/* Skills Section */}
       <section id="skills" className="py-12 bg-gray-100 text-center">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl mb-6">Skills & Acheivements</h2>
+          <h2 className="text-3xl mb-6">Skills & Works</h2>
           <div className="flex flex-wrap justify-center gap-6">
             <div className="bg-white p-6 shadow-lg rounded-lg w-80">
-              <p className="text-lg">Familiar with C, C++, Python, HTML, CSS, Javascript, Tailwind and React.</p>
+              <p className="text-lg">Familiar with C, C++, Python, HTML, CSS, Javascript, Tailwind, React and Figma.</p>
             </div>
             <div className="bg-white p-6 shadow-lg rounded-lg w-80">
               <p className="text-lg">Experience with Machine Learning and Image Classification.</p>
@@ -84,7 +85,14 @@ const App = () => {
                 alt="React"
                 className="w-12 h-12 rounded-full mx-auto mb-4 mt-5"
               />
+              <img
+                src="figma.svg"
+                alt="figma"
+                className="w-12 h-12 rounded-full mx-auto mb-4 mt-5"
+              />
               </div>
+              {/* Skills Carousel */}
+          <Carousel />
       </section>
 
       {/* Contact Section */}
